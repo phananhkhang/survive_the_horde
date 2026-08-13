@@ -149,6 +149,13 @@ fn setup_game(
             Transform::from_xyz(x, y, 0.0),
         ));
     }
+
+    // Play background music (CandyWin.mp3) on loop
+    commands.spawn((
+        GameEntity,
+        AudioPlayer::new(asset_server.load("audio/CandyWin.mp3")),
+        PlaybackSettings::LOOP,
+    ));
 }
 
 fn update_background_size(
