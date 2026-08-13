@@ -150,7 +150,7 @@ fn setup_game(
         ));
     }
 
-    // Play background music (CandyWin.mp3) on loop
+    // Play background music (CandyWin.mp3) on loop during gameplay
     commands.spawn((
         GameEntity,
         AudioPlayer::new(asset_server.load("audio/CandyWin.mp3")),

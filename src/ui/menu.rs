@@ -12,6 +12,13 @@ pub struct RetryButton;
 pub struct MenuButton;
 
 pub fn setup_menu(mut commands: Commands, asset_server: Res<AssetServer>) {
+    // Play background music for menu screen only
+    commands.spawn((
+        UiRoot,
+        AudioPlayer::new(asset_server.load("audio/CandyWin.mp3")),
+        PlaybackSettings::LOOP,
+    ));
+
     let background: Handle<Image> = asset_server.load("ui/menu_background.png");
     commands
         .spawn((
