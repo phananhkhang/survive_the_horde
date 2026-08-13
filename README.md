@@ -2,7 +2,6 @@
 
 [![Rust](https://img.shields.io/badge/Language-Rust-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![Engine](https://img.shields.io/badge/Engine-Bevy%200.19.1-blue.svg?style=flat-square)](https://bevyengine.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 **Survive The Horde** là một tựa game 2D Top-down Action Survival bắn súng sinh tồn kịch tính được xây dựng bằng ngôn ngữ **Rust** và **Bevy Game Engine** (v0.19.1). Người chơi sẽ vào vai một chiến binh đơn độc chống lại đợt quái vật hung hãn đang săn đuổi mình.
 
@@ -105,12 +104,6 @@ survive_the_horde/
    ```bash
    cargo run --release
    ```
-
----
-
-## 📜 Giấy phép (License)
-
-Dự án được phát hành theo giấy phép [MIT](LICENSE). Bạn có thể tự do đóng góp, tùy biến và phát triển tiếp!
 
 ---
 *Chúc bạn có những phút giây giải trí tuyệt vời và sinh tồn thành công trước bầy quái vật! 🧟‍♂️💥*

@@ -134,7 +134,7 @@ fn setup_game(
 
     let mut rng = rand::rng();
 
-    for _ in 0..50 {
+    for _ in 0..65 {
         let x = rng.random_range(-600.0..600.0);
         let y = rng.random_range(-400.0..400.0);
 
